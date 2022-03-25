@@ -1,0 +1,29 @@
+@mixin opacity1{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+@mixin main-li-card{
+    position: absolute;
+    background-color: #EFF5F8;
+    top: 80%;
+    left: 10%;  
+    padding: 10px 0;
+    transform: translateY(-20px);
+    transition: .3s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+@mixin first-a{
+    border-left: 2px solid #5191FA;
+    padding-left: 10px;
+}
+
+@mixin card-li{
+    width: 12rem;
+    padding: 8px 0;
+    border-bottom: 1px solid rgb(230, 226, 226);
+}
+
